@@ -1,0 +1,21 @@
+Passos para criar repositório no GitHub
+* Na página do GitHub criar um novo repositório,
+* Dar nome ao projeto, 
+* Fazer sua descrição,
+* Deixar no modo público permitir que qualquer pessoa pode acessá-lo,
+* Marcar a caixa Add a README file para criar o documento onde você descreve as informações que achar pertinentes.
+* Commitar o repositório.
+
+Copiando o repositório do GitHub para a máquina
+* Ir no code do GitHub e copiar o link do HTTPS,
+* Fazer uma pasta no computador onde você armazenazá seu projeto,
+* Abrir a pasta que você criou e clicar com botão direito do mouse abrindo o Git Bash,
+* Dar o comando do git clone e copiar o link do GitHub,
+* Na pasta você vai ver que criou a pasta .git e o arquivo README
+* Agora você já pode trabalhar no seu projeto, ela já está na máquina.
+
+Enviando as alterações do projeto da máquina para a nuvem GitHub
+* Após dar o comando git status, você vai ver que apareceu os arquivos que você criou em vermelho,
+* Você vai dar o comando git add. para incluir os arquivos, você vai ver que eles ficaram verdes,
+* Agora o comando git commit -m "descreva o que está sendo enviando para o GitHub"
+* Na página do GitHub faça atualização F5, você vai perceber que os arquivos que você criou agora estão na nuvem.
